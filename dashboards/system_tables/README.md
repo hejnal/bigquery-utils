@@ -42,6 +42,7 @@ Log in to Data Studio and create a copy of the following data sources. More info
 11. [Job Concurrency Fast](https://datastudio.google.com/datasources/c61def4f-99e2-4861-b882-d5d8ae0ab7a6)
 12. [Job Analyzer - Slow Job](https://datastudio.google.com/datasources/5fae59f6-ce74-433d-bdec-42795b83cdf1)
 13. [Job Analyzer - Fast Job](https://datastudio.google.com/datasources/aabb6aa4-4640-4698-aedb-1a00179e7508)
+14. [Slot Estimator](https://datastudio.google.com/c/u/0/datasources/fc9ebadd-b2ce-4f62-81af-04cd9f1e9004)
 
 Please note that for the [Job Comparison Report](/docs/job_comparison.md), you will need to make a copy of the [Job Concurrency Slow](/sql/job_concurrency_comparison_slow.sql) and [Job Analyzer Slow](/sql/job_analyzer_slow.sql) 
 queries for the corresponding fast jobs data source. You will need to edit `@job_param` parameter on lines line 44 and line 153 respectively to `@job_param_2` or similar. Examples of how to do this are shown in the sample data sources above.
